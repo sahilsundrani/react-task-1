@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .box {
+  border: 1px solid #ccc; /* Add a border around the box */
+  padding: 20px; /* Add padding inside the box */
+  width: 70%; /* Set the width of the box (adjust as needed) */
+  margin: 0 auto; /* Center the box horizontally on the page */
+  background-color: #f9f9f9; /* Background color of the box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow for depth */
+  border-radius: 5px; /* Add rounded corners to the box (optional) */
+}
+  
+  textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 0.7rem;
+    border: strong black;
+    border-width: 0.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
+ 
+  
